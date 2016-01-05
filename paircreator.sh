@@ -1,19 +1,21 @@
+#!bash/script
+clear
 echo First pairs initials, followed by enter
 read initial1
 clear
-echo first pairs name, followed by enter
+echo First pairs name, followed by enter
 read name1
 clear
-echo first pairs email, followed by enter
+echo First pairs email, followed by enter
 read email1
 clear
-echo second pair intiials, followed by enter
+echo Second pairs initials, followed by enter
 read initial2
 clear
-echo second pair name, followed by enter
+echo Second pairs name, followed by enter
 read name2
 clear
-echo second pair email, followed by enter
+echo Second pairs email, followed by enter
 read email2
 clear
 
