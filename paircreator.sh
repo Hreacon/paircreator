@@ -1,7 +1,8 @@
 #!/bin/bash
 function writeFile {
-FILE = ~/.pairs
-echo pairs: >> $FILE
+FILE=~/.pairs
+
+echo pairs: > "$FILE"
 echo "  $initial1: $name1" >> $FILE
 echo "  $initial2: $name2" >> $FILE
 echo email_addresses: >> $FILE
@@ -33,7 +34,7 @@ read email2
 clear
 }
 
-FILE = ~/.pairs
+FILE=~/.pairs
 if [ -f $FILE ]
 then
   echo File exists. Overwrite? y/n [case sensitive]
