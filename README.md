@@ -8,3 +8,7 @@ Clone the repository to a folder. Run the script by typing
     ./paircreator.sh
 
 
+### Features
+
+Checks for existing .pairs file to prevent accidental overwriting.
+
