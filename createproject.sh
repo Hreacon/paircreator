@@ -62,3 +62,6 @@ else
   fi
   echo "The directory was initialized"
 fi
+
+echo "Opening directory in atom"
+atom .
