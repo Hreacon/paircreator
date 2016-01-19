@@ -2,14 +2,14 @@
 function writeFile {
 FILE=~/.pairs
 
-echo pairs: > "$FILE"
-echo "  $initial1: $name1" >> $FILE
-echo "  $initial2: $name2" >> $FILE
-echo email_addresses: >> $FILE
-echo "  $initial1: $email1" >> $FILE
-echo "  $initial2: $email2" >> $FILE
+echo pairs: > ""$FILE""
+echo "  $initial1: $name1" >> "$FILE"
+echo "  $initial2: $name2" >> "$FILE"
+echo email_addresses: >> "$FILE"
+echo "  $initial1: $email1" >> "$FILE"
+echo "  $initial2: $email2" >> "$FILE"
 
-echo $FILE file written.
+echo "$FILE" file written.
 }
 
 function collectInput {
@@ -35,7 +35,7 @@ clear
 }
 
 FILE=~/.pairs
-if [ -f $FILE ]
+if [ -f "$FILE" ]
 then
   echo File exists. Overwrite? y/n [case sensitive]
   read answer
