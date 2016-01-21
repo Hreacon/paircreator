@@ -32,7 +32,7 @@ _{Tell me about the languages and tools you used to create this app. Assume that
 
 ### License
 
-Copyright (c) 2015 Nicholas Jensen-Hay and PAIR
+Copyright (c) 2016 Nicholas Jensen-Hay and PAIR
 
 MIT License
 
