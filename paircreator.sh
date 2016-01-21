@@ -2,11 +2,16 @@
 function writeFile {
 FILE=~/.pairs
 
+# Was setup to enter both pairs name and intials
+# echo "  $initial1: $name1" >> "$FILE"
+# echo "  $initial1: $email1" >> "$FILE"
+
+# now set to mine(Nicholas Jensen-Hay)
 echo pairs: > ""$FILE""
-echo "  $initial1: $name1" >> "$FILE"
+echo "  njh:Nicholas Jensen-Hay" >> "$FILE"
 echo "  $initial2: $name2" >> "$FILE"
 echo email_addresses: >> "$FILE"
-echo "  $initial1: $email1" >> "$FILE"
+echo "  njh:nicholasjensenhay@gmail.com" >> "$FILE"
 echo "  $initial2: $email2" >> "$FILE"
 
 echo "$FILE" file written.
@@ -14,22 +19,22 @@ echo "$FILE" file written.
 
 function collectInput {
 clear
-echo First pairs initials, followed by enter
-read initial1
-clear
-echo First pairs name, followed by enter
-read name1
-clear
-echo First pairs email, followed by enter
-read email1
-clear
-echo Second pairs initials, followed by enter
+# echo First pairs initials, followed by enter
+# read initial1
+# clear
+# echo First pairs name, followed by enter
+# read name1
+# clear
+# echo First pairs email, followed by enter
+# read email1
+# clear
+echo Enter pairs initials, followed by enter
 read initial2
 clear
-echo Second pairs name, followed by enter
+echo Enter pairs name, followed by enter
 read name2
 clear
-echo Second pairs email, followed by enter
+echo Enter pairs email, followed by enter
 read email2
 clear
 }
